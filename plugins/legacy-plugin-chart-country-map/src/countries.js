@@ -16,6 +16,7 @@ import liechtenstein from 'file-loader!./countries/liechtenstein.geojson';
 import morocco from 'file-loader!./countries/morocco.geojson';
 import myanmar from 'file-loader!./countries/myanmar.geojson';
 import netherlands from 'file-loader!./countries/netherlands.geojson';
+import paraiba from 'file-loader!./countries/paraiba.geojson';
 import portugal from 'file-loader!./countries/portugal.geojson';
 import russia from 'file-loader!./countries/russia.geojson';
 import singapore from 'file-loader!./countries/singapore.geojson';
@@ -46,6 +47,7 @@ const countries = {
   morocco,
   myanmar,
   netherlands,
+  paraiba,
   portugal,
   russia,
   singapore,
