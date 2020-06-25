@@ -54,7 +54,7 @@ function CountryMap(element, props) {
   data.forEach(d => {
     colorMap[d.country_id] = colorScale(d.metric);
   });
-  const colorFn = d => colorMap[d.properties.ISO] || 'none';
+  const colorFn = d => colorMap[d.properties.ISO] || 'gray';
 
   const path = d3.geo.path();
   const div = d3.select(container);
