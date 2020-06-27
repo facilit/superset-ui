@@ -151,7 +151,7 @@ function CountryMap(element, props) {
     d3.select(this).style('fill', c);
     selectAndDisplayNameOfRegion(d);
     const result = data.filter(region => region.country_id === d.properties.ISO);
-    updateMetrics(result);
+    //updateMetrics(result);
   };
 
   const mouseout = function mouseout() {
